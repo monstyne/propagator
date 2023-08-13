@@ -1,3 +1,6 @@
+ document.getElementById("exitt").addEventListener("click", function() {
+      window.close();
+      });
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault(); 
      var username = document.getElementById("username").value;
@@ -11,7 +14,4 @@ document.getElementById("login-form").addEventListener("submit", function(event)
       alert("Login failed. Please check your credentials.");
     }
 });
-      document.getElementById("exitt").addEventListener("click", function() {
-      window.close();
-      });
-  
+     
