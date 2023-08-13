@@ -1,6 +1,6 @@
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault(); 
-     document.getElementById("exit").addEventListener("click", function() {
+     document.getElementById("exitt").addEventListener("click", function() {
       window.close();
       });
      var username = document.getElementById("username").value;
