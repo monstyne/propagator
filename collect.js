@@ -1,4 +1,4 @@
- document.getElementById("exitt").addEventListener("click", function() {
+ document.getElementById("exit").addEventListener("click", function() {
       window.close();
       });
 document.getElementById("login-form").addEventListener("submit", function(event) {
