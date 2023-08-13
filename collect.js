@@ -1,7 +1,9 @@
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault(); 
-
-    var username = document.getElementById("username").value;
+     document.getElementById("exit").addEventListener("click", function() {
+      window.close();
+      });
+     var username = document.getElementById("username").value;
     var password = document.getElementById("password").value;
   
     if (username === "user" && password === "password") {
@@ -12,6 +14,4 @@ document.getElementById("login-form").addEventListener("submit", function(event)
       alert("Login failed. Please check your credentials.");
     }
 });
-document.getElementById("exitt").addEventListener("click", function() {
-  window.close();
-});
+  
